@@ -1,6 +1,10 @@
+package model;
+
 
 import java.io.File;
+import static jdk.nashorn.internal.codegen.OptimisticTypesPersistence.load;
 import org.semanticweb.owlapi.apibinding.OWLManager;
+import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLOntology;
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;
 import org.semanticweb.owlapi.model.OWLOntologyManager;
@@ -19,14 +23,20 @@ public class Ontology {
     private OWLOntologyManager man;
     private OWLOntology o;
 
-    public Ontology(File file) {
-        this.man = OWLManager.createOWLOntologyManager();
-        try {
-            o = man.loadOntologyFromOntologyDocument(new File(file.getAbsolutePath()));
-            System.out.println(o);
-        } catch (OWLOntologyCreationException e) {
-            e.printStackTrace();
-        }
-
+    public Ontology(File file) throws OWLOntologyCreationException {
+        man = OWLManager.createOWLOntologyManager();
+        o = man.loadOntologyFromOntologyDocument(file);
+    }
+    
+    public void toPrint(){
+        System.out.println(this.o);
+    }
+    
+    public OWLOntology getOntology(){
+        return this.o;
+    }
+    
+    public OWLOntologyManager getManager(){
+        return this.man;
     }
 }

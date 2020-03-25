@@ -1,0 +1,4739 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/theo/ontologies/2019/0/EmergencyDepartmentOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/theo/ontologies/2019/0/EmergencyDepartmentOntology">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal>Théo Zanchi</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <Literal>This ontology describe the emergency department domain and aim to manage patient pathways in emergency departments.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Literal>EmergencyDepartmentOntology</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7Sp45SXhYTuDvRRDenaSd0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7uUuXiBwwisJCbKJGe3wYs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8MJoFpbb9I6DL2zOA7rkis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8VZmQZ4SMdbrwBhszGvUqZ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8cet8q71LccknY5vL32URv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8eMud87v0m2Hw91NmJBxB1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8lpOMMmhSsRv6Cou780sB8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8zynctKH21C4aSiDR4vESM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R92PBpBkSXJxHgmYMOb4ylC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9E1WT8JyRUcs0lETMgvquE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9EYH7R5Ap4mvvHdQRxuUwf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9MrC7oFu4atEIfEwtTofJb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9g1FrETtSX7oWRmpbp0qd6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBFWeojH7tuXFMCkeLXSdyE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBO3qP0ogQt4NA76R8yPOxX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBWv1RS8jhlY0rpK2koUCD3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBnSqbwCM2xXTSBbmvxdEbk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RC44IVyiJLWPedAfxRbztpD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCoKn84AovHdqVJRotLSHr1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDGMHrqxjkj2Ascd5CaYZIg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDHynjXbqCRjZa2cQG72eG6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDwIBmZLAcTSJRiiANFivyC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RZ9PXzrMhbhRGoBspIjane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RZU1mW3UtsWUN9c5fKbwEc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RavMTEiHkhQjdhfYRfORgg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbdominalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbdominalExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbdominalRadiography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbdominalScan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbdominalTrauma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accompaniants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdjuvantTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdministrativeExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdultIntelligenceQuotientEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agressivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AllergicTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allergologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allergology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anaesthesia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnaphylacticShock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnatomopathologicalExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ancient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anesthesiologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnesthesiologistNurse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anesthesiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aneurism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AngiographyMRI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AngiographyScan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Angioplasty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArterialDooplerEchography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arteriography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AsthmaCrisis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atypical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AuscultationExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BacterialUrineCytology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bandages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Benign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiologicalAgentDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiologicalExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biopsy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlindedSight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodBiochemicalAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodBiologicalAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodBiologicalBilan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodBiologicalExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodElectrolyticAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodExposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodGasAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodHaematology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodHaemoculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodIonogram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodSerology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodSugarAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodSugarCapillarAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlurredSight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodyTemperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Box"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BreastDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CapillaryBiologicalExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CardiacAndRespiratoryInsuffiency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cardiologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cardiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CardiologyDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CardiovascularDooplerEchography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CardiovascularEchography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CardiovascularExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CardiovascularMarker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CardiovascularSurgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caregivers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarotidDooplerEchography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CerebralScan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChestPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChildIntelligenceQuotientEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClinicalExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClinicalSign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CognitiveDeficitEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consultation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContextExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ControlCareTreament"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ControlExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cought"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CranialTrauma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CreatinineAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CutaneousExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cyst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decompensated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegenerativeProcessTemplate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Department"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepressionEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DermalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dermatologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dermatology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DermatologyDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiseaseAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiseaseStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Displasia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dissection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DooplerEchography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drugs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dystrophy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ENTDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ENTExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Echography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EctopicPregnancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electrocardiogram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Embolism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmergencyDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmergencyDepartmentRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmergencyDepartmentStaff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmergencyMedecine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EndocrineDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Endocrinologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Endocrinology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EndocrinologyDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evolution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExamResult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExternalAgentDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExternalRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExternalStaff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EyesDysfunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EyesPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FaceDysfunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FaecalBiologicalExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FemoralFracture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fever"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fireman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForensicExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FunctionalExploration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gastroentorologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gastroentorology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GastroentorologyDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralMedecineDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralMedicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralMedicineDoctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralStateDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geriatrician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geriatry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gloves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GlycemicComa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gravity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GynaecologicalExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gynaecologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gynaecology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GynecologyDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HIVExposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeadPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Headache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthRiskFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HematologicalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hematologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hematology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HematologyDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hematoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hernia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HightHeadache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homeless"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospitalisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HyperglycemicComa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HypoglycemicComa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImagingExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImmuneDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immunologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immunology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImmunologyDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infarction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infectiologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infectiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InfectiousProcessTemplate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InflammatoryDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Installation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InternalMedicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InternalMedicineDoctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Invasive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laterality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeftArmPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeftHanded"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeftLegPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeftSideDysfunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Light"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LimbIschemia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LimbIschemiaSurgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LimbsDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocationDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowHeadache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowerLimbPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LumbarPuncture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MRI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MechanismDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalAct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalDiscipline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalStaff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicinalTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediumHeadache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meningitis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetabolicDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Minor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moderate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MyocardialInfarction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neonatologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neonatology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NephrologicalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nephrology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeurologicalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeurologicalExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neurologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neurology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeurologyDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeuropsychologicalExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewbornDehydration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonInvasive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonPerishableMaterialRessource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NuclearMedicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NuclearMedicineDoctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nurse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Néphrologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obesity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obstetric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObstetricDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obstetrician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObstructiveProcessTemplate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Odontologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Odontology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OdontologyDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oncologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oncology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OncologyDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OpenFracture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ophtalmologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ophtalmology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OphthalmicDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orthopedic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrthopedicDoctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherTemplate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaediatricDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paediatrician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paediatrics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PalliativeCareTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PalliativeMedicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PalliativeMedicineDoctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PalpationExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParaclinicalExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParaclinicalSign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paramedic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientHealthState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientInternalState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientMorphologicalState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientTemplate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PercussionExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerishableMaterialRessource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peritonitis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalMedicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalMedicineDoctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysiologicalAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Porter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PotassiumCarence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pregnancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreventiveMedicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreventiveMedicineDoctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Progressive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prolapsus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pseudocyst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PsychiatricDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychiatrist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychiatry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PulmonaryEdema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PulmonologicalExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pulmonologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pulmonology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PulmonologyDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puncture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Qualification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualificationDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualityOfLifeEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RadiologyDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiotherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reanimation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Remission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RenalColic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RenalEchography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RespiratoryFlowMonitoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RespiratoryFunctionalExploration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RheumatologicDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rheumatologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rheumatology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RightArmPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RightHanded"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RightLegPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RightSideDysfunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SamplingBiologicalExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scintigraphy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Septicemia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SepticemiaMRI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SepticemiaRadiography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SepticemiaScan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Severe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShoulderLuxation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialDifficulties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpineTrauma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StateDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stenosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StomachPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stroke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StructuralResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surgeon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SurgicalDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SurgicalRoom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SurgicalTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Syringe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temporal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThoracicDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThoracicRadiography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thrombus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransesophagealEchography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TraumaticProcessTemplate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traumatology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TraumatologyDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TraumatologyDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TroponinMonitoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TumoralProcessDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tumour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Typical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ulcer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UpperLimbPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UrineBiologicalExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UrineIonogram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UrineStripsAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UrologyDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VascularDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VitalParametersMonitoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaitingRoom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#diseaseAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#diseaseProperties"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAgressivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsAntecedent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsRole"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAttributeProperties"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCarePlanPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClinicalSign"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDisease"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGravity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHealthRiskFactor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInstallation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMorphologicalAnomaly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParaclinicalSign"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPhysiologicalAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPossibleEvolution"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasResult"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStateProperties"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStatus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSymptom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTemporality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inverseRelation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCarePlanPartOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCuredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInRemission"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPerformedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTheResultOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#medicalActRequirements"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#medicalActRequires"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#medicalActRequiresStructure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#patientProperties"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#roleOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workInDepartment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasBirthDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFirstName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLastName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isAssociatedToDolorLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isLocated"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personDataProperties"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#resultOfMedicalAct"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/relation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Allergologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Allergology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Anesthesiologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Anesthesiology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Cardiologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Cardiology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CardiologyDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#Cardiology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Dermatologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Dermatology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#DermatologyDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#Dermatology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EmergencyDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#EmergencyMedecine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Endocrinologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Endocrinology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EndocrinologyDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#Endocrinology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gastroentorologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Gastroentorology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GastroentorologyDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#Gastroentorology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GeneralMedecineDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#GeneralMedicine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GeneralMedicineDoctor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#GeneralMedicine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Geriatrician"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Geriatry"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gynaecologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Gynaecology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GynecologyDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#Gynaecology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hematologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Hematology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#HematologyDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#Hematology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Immunologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Immunology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ImmunologyDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#Immunology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Infectiologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Infectiology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#InternalMedicineDoctor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#InternalMedicine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Neonatologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Neonatology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Neurologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Neurology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#NeurologyDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#Neurology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#NuclearMedicineDoctor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#NuclearMedicine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Néphrologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Nephrology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Obstetrician"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Obstetric"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Odontologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Odontology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OdontologyDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#Odontology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Oncologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Oncology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OncologyDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#Oncology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ophtalmologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Ophtalmology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OrthopedicDoctor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Orthopedic"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Paediatrician"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Paediatrics"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PalliativeMedicineDoctor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#PalliativeMedicine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PhysicalMedicineDoctor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#PhysicalMedicine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PreventiveMedicineDoctor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#PreventiveMedicine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Psychiatrist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Psychiatry"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Pulmonologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Pulmonology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PulmonologyDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#Pulmonology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Radiologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Radiology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RadiologyDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#Radiology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Rheumatologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Rheumatology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Surgeon"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Surgery"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SurgicalDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#Surgery"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TraumatologyDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#Traumatology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Urologist"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Doctor"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+                <Class IRI="#Urology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UrologyDepartment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Department"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+                <Class IRI="#Urology"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7Sp45SXhYTuDvRRDenaSd0"/>
+        <Class IRI="http://webprotege.stanford.edu/R8MJoFpbb9I6DL2zOA7rkis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7uUuXiBwwisJCbKJGe3wYs"/>
+        <Class IRI="#TraumaticProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8MJoFpbb9I6DL2zOA7rkis"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8VZmQZ4SMdbrwBhszGvUqZ"/>
+        <Class IRI="#PatientTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8cet8q71LccknY5vL32URv"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8eMud87v0m2Hw91NmJBxB1"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8lpOMMmhSsRv6Cou780sB8"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8zynctKH21C4aSiDR4vESM"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R92PBpBkSXJxHgmYMOb4ylC"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9E1WT8JyRUcs0lETMgvquE"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9EYH7R5Ap4mvvHdQRxuUwf"/>
+        <Class IRI="http://webprotege.stanford.edu/R8VZmQZ4SMdbrwBhszGvUqZ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9MrC7oFu4atEIfEwtTofJb"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9g1FrETtSX7oWRmpbp0qd6"/>
+        <Class IRI="#TraumaticProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBFWeojH7tuXFMCkeLXSdyE"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBO3qP0ogQt4NA76R8yPOxX"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBWv1RS8jhlY0rpK2koUCD3"/>
+        <Class IRI="http://webprotege.stanford.edu/R7uUuXiBwwisJCbKJGe3wYs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBnSqbwCM2xXTSBbmvxdEbk"/>
+        <Class IRI="http://webprotege.stanford.edu/R7uUuXiBwwisJCbKJGe3wYs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RC44IVyiJLWPedAfxRbztpD"/>
+        <Class IRI="http://webprotege.stanford.edu/R8VZmQZ4SMdbrwBhszGvUqZ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCoKn84AovHdqVJRotLSHr1"/>
+        <Class IRI="http://webprotege.stanford.edu/R8MJoFpbb9I6DL2zOA7rkis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDGMHrqxjkj2Ascd5CaYZIg"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDHynjXbqCRjZa2cQG72eG6"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDwIBmZLAcTSJRiiANFivyC"/>
+        <Class IRI="http://webprotege.stanford.edu/R8VZmQZ4SMdbrwBhszGvUqZ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RZ9PXzrMhbhRGoBspIjane"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RZU1mW3UtsWUN9c5fKbwEc"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RavMTEiHkhQjdhfYRfORgg"/>
+        <Class IRI="http://webprotege.stanford.edu/R8VZmQZ4SMdbrwBhszGvUqZ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbdominalDisease"/>
+        <Class IRI="#LocationDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbdominalExam"/>
+        <Class IRI="#PhysicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbdominalRadiography"/>
+        <Class IRI="#Radiography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbdominalRadiography"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#RenalColic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbdominalScan"/>
+        <Class IRI="#Scan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbdominalScan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#Peritonitis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbdominalScan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#RenalColic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbdominalTrauma"/>
+        <Class IRI="#TraumaticProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accompaniants"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acute"/>
+        <Class IRI="#Installation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdjuvantTreatment"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdministrativeExam"/>
+        <Class IRI="#ContextExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdultIntelligenceQuotientEvaluation"/>
+        <Class IRI="#NeuropsychologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agressivity"/>
+        <Class IRI="#DiseaseAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AllergicTreatment"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allergology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anaesthesia"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnaphylacticShock"/>
+        <Class IRI="#OtherTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnatomopathologicalExam"/>
+        <Class IRI="#PhysicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ancient"/>
+        <Class IRI="#Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnesthesiologistNurse"/>
+        <Class IRI="#Nurse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anesthesiology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aneurism"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngiographyMRI"/>
+        <Class IRI="#MRI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngiographyMRI"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#LimbIschemia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngiographyMRI"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#Stroke"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngiographyScan"/>
+        <Class IRI="#Scan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngiographyScan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#LimbIschemia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngiographyScan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#Stroke"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Angioplasty"/>
+        <Class IRI="#CardiovascularSurgery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Angioplasty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#MyocardialInfarction"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArterialDooplerEchography"/>
+        <Class IRI="#DooplerEchography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArterialDooplerEchography"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#LimbIschemia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arteriography"/>
+        <Class IRI="#Radiography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsthmaCrisis"/>
+        <Class IRI="#ObstructiveProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsthmaCrisis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#BloodGasAnalysis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsthmaCrisis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#BloodHaematology"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsthmaCrisis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#RespiratoryFlowMonitoring"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsthmaCrisis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#ThoracicRadiography"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attribute"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atypical"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AuscultationExam"/>
+        <Class IRI="#PhysicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BacterialUrineCytology"/>
+        <Class IRI="#UrineBiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bandages"/>
+        <Class IRI="#PerishableMaterialRessource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Benign"/>
+        <Class IRI="#Gravity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiologicalAgentDisease"/>
+        <Class IRI="#MechanismDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiologicalExam"/>
+        <Class IRI="#ParaclinicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biopsy"/>
+        <Class IRI="#ParaclinicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlindedSight"/>
+        <Class IRI="#EyesDysfunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodBiochemicalAnalysis"/>
+        <Class IRI="#BloodBiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodBiologicalAnalysis"/>
+        <Class IRI="#BloodBiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodBiologicalAnalysis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#GlycemicComa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodBiologicalBilan"/>
+        <Class IRI="#BloodBiologicalAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodBiologicalExam"/>
+        <Class IRI="#BiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodElectrolyticAnalysis"/>
+        <Class IRI="#BloodBiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodElectrolyticAnalysis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#GlycemicComa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodElectrolyticAnalysis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#Septicemia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodExposition"/>
+        <Class IRI="#HealthRiskFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodGasAnalysis"/>
+        <Class IRI="#BloodBiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodGasAnalysis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#AsthmaCrisis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodGasAnalysis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#GlycemicComa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodGasAnalysis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#PulmonaryEdema"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodHaematology"/>
+        <Class IRI="#BloodBiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodHaematology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#AsthmaCrisis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodHaematology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#GlycemicComa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodHaematology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#Stroke"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodHaemoculture"/>
+        <Class IRI="#BloodBiologicalAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodHaemoculture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#Meningitis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodHaemoculture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#Septicemia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodIonogram"/>
+        <Class IRI="#BloodBiochemicalAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodIonogram"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#PulmonaryEdema"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodIonogram"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#RenalColic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodSerology"/>
+        <Class IRI="#BloodBiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodSerology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#Septicemia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodSugarAnalysis"/>
+        <Class IRI="#BloodBiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodSugarCapillarAnalysis"/>
+        <Class IRI="#CapillaryBiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodSugarCapillarAnalysis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#GlycemicComa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlurredSight"/>
+        <Class IRI="#EyesDysfunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodyTemperature"/>
+        <Class IRI="#ParaclinicalSign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Box"/>
+        <Class IRI="#StructuralResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BreastDisease"/>
+        <Class IRI="#LocationDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CapillaryBiologicalExam"/>
+        <Class IRI="#BiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CardiacAndRespiratoryInsuffiency"/>
+        <Class IRI="#DegenerativeProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CardiovascularDooplerEchography"/>
+        <Class IRI="#DooplerEchography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CardiovascularDooplerEchography"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#PulmonaryEdema"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CardiovascularEchography"/>
+        <Class IRI="#Echography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CardiovascularEchography"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#MyocardialInfarction"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CardiovascularExam"/>
+        <Class IRI="#PhysicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CardiovascularMarker"/>
+        <Class IRI="#BloodBiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CardiovascularSurgery"/>
+        <Class IRI="#SurgicalTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caregivers"/>
+        <Class IRI="#EmergencyDepartmentRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarotidDooplerEchography"/>
+        <Class IRI="#DooplerEchography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarotidDooplerEchography"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#Stroke"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CerebralScan"/>
+        <Class IRI="#Scan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChestPain"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChildIntelligenceQuotientEvaluation"/>
+        <Class IRI="#NeuropsychologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chronic"/>
+        <Class IRI="#Evolution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClinicalExam"/>
+        <Class IRI="#Exam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClinicalSign"/>
+        <Class IRI="#PatientHealthState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CognitiveDeficitEvaluation"/>
+        <Class IRI="#NeuropsychologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coma"/>
+        <Class IRI="#DegenerativeProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consultation"/>
+        <Class IRI="#MedicalAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContextExam"/>
+        <Class IRI="#Exam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ControlCareTreament"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ControlExam"/>
+        <Class IRI="#ContextExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cought"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CranialTrauma"/>
+        <Class IRI="#TraumaticProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreatinineAnalysis"/>
+        <Class IRI="#BloodBiochemicalAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreatinineAnalysis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#MyocardialInfarction"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreatinineAnalysis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#RenalColic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CutaneousExam"/>
+        <Class IRI="#PhysicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cyst"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decompensated"/>
+        <Class IRI="#Installation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegenerativeProcessTemplate"/>
+        <Class IRI="#PatientTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Department"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepressionEvaluation"/>
+        <Class IRI="#NeuropsychologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DermalDisease"/>
+        <Class IRI="#LocationDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dermatology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease"/>
+        <Class IRI="#PatientInternalState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAgressivity"/>
+            <Class IRI="#Agressivity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGravity"/>
+            <Class IRI="#Gravity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasInstallation"/>
+            <Class IRI="#Installation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPossibleEvolution"/>
+            <Class IRI="#Evolution"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasResult"/>
+            <Class IRI="#Result"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStatus"/>
+            <Class IRI="#DiseaseStatus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporality"/>
+            <Class IRI="#Temporal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <Class IRI="#Type"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isInRemission"/>
+            <Class IRI="#Remission"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiseaseAttribute"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiseaseStatus"/>
+        <Class IRI="#DiseaseAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Displasia"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dissection"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doctor"/>
+        <Class IRI="#EmergencyDepartmentRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DooplerEchography"/>
+        <Class IRI="#Echography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drugs"/>
+        <Class IRI="#PerishableMaterialRessource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dystrophy"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ENTDisease"/>
+        <Class IRI="#LocationDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ENTExam"/>
+        <Class IRI="#PhysicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Echography"/>
+        <Class IRI="#ImagingExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EctopicPregnancy"/>
+        <Class IRI="#OtherTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electrocardiogram"/>
+        <Class IRI="#VitalParametersMonitoring"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electrocardiogram"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#MyocardialInfarction"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electrocardiogram"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#PulmonaryEdema"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electrocardiogram"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#Stroke"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Embolism"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EmergencyDepartmentRole"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EmergencyDepartmentStaff"/>
+        <Class IRI="#MedicalStaff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EmergencyDepartmentStaff"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#workInDepartment"/>
+            <Class IRI="#EmergencyDepartment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EmergencyMedecine"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EndocrineDisease"/>
+        <Class IRI="#LocationDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Endocrinology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entity"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evolution"/>
+        <Class IRI="#DiseaseAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exam"/>
+        <Class IRI="#MedicalAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExamResult"/>
+        <Class IRI="#PatientMorphologicalState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExamResult"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTheResultOf"/>
+            <Class IRI="#MedicalAct"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExamResult"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#resultOfMedicalAct"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalAgentDisease"/>
+        <Class IRI="#MechanismDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalRole"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalStaff"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EyesDysfunction"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EyesPain"/>
+        <Class IRI="#EyesDysfunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FaceDysfunction"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FaecalBiologicalExam"/>
+        <Class IRI="#BiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FemoralFracture"/>
+        <Class IRI="#TraumaticProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fever"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fireman"/>
+        <Class IRI="#ExternalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForensicExam"/>
+        <Class IRI="#ContextExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FunctionalExploration"/>
+        <Class IRI="#ParaclinicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gastroentorology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralMedicine"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralStateDisease"/>
+        <Class IRI="#StateDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geriatry"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gloves"/>
+        <Class IRI="#PerishableMaterialRessource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlycemicComa"/>
+        <Class IRI="#Coma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlycemicComa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#BloodBiologicalBilan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlycemicComa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#BloodElectrolyticAnalysis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlycemicComa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#BloodGasAnalysis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlycemicComa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#BloodHaematology"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlycemicComa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#BloodSugarCapillarAnalysis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlycemicComa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#UrineStripsAnalysis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gravity"/>
+        <Class IRI="#DiseaseAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GynaecologicalExam"/>
+        <Class IRI="#PhysicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gynaecology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HIVExposition"/>
+        <Class IRI="#HealthRiskFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeadPain"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Headache"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthRiskFactor"/>
+        <Class IRI="#PatientAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HematologicalDisease"/>
+        <Class IRI="#LocationDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hematology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hematoma"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hernia"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HightHeadache"/>
+        <Class IRI="#Headache"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homeless"/>
+        <Class IRI="#HealthRiskFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospitalisation"/>
+        <Class IRI="#MedicalAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HyperglycemicComa"/>
+        <Class IRI="#GlycemicComa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HypoglycemicComa"/>
+        <Class IRI="#GlycemicComa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImagingExam"/>
+        <Class IRI="#ParaclinicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmuneDisease"/>
+        <Class IRI="#LocationDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immunology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infarction"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infectiology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InfectiousProcessTemplate"/>
+        <Class IRI="#PatientTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InflammatoryDisease"/>
+        <Class IRI="#MechanismDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Installation"/>
+        <Class IRI="#DiseaseAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InternalMedicine"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Invasive"/>
+        <Class IRI="#Agressivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laterality"/>
+        <Class IRI="#PhysiologicalAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeftArmPain"/>
+        <Class IRI="#UpperLimbPain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeftHanded"/>
+        <Class IRI="#Laterality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeftLegPain"/>
+        <Class IRI="#LowerLimbPain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeftSideDysfunction"/>
+        <Class IRI="#FaceDysfunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Light"/>
+        <Class IRI="#Gravity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LimbIschemia"/>
+        <Class IRI="#ObstructiveProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LimbIschemia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#AngiographyMRI"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LimbIschemia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#AngiographyScan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LimbIschemia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#ArterialDooplerEchography"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LimbIschemia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#LimbIschemiaSurgery"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LimbIschemiaSurgery"/>
+        <Class IRI="#CardiovascularSurgery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LimbIschemiaSurgery"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#LimbIschemia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LimbsDisease"/>
+        <Class IRI="#LocationDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocationDisease"/>
+        <Class IRI="#Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowHeadache"/>
+        <Class IRI="#Headache"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowerLimbPain"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LumbarPuncture"/>
+        <Class IRI="#Puncture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LumbarPuncture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#Meningitis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MRI"/>
+        <Class IRI="#ImagingExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialResource"/>
+        <Class IRI="#Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MechanismDisease"/>
+        <Class IRI="#Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalAct"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalAct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPerformedBy"/>
+            <Class IRI="#MedicalStaff"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalAct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#medicalActRequires"/>
+            <Class IRI="#MaterialResource"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalAct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#medicalActRequiresStructure"/>
+            <Class IRI="#StructuralResource"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalDiscipline"/>
+        <Class IRI="#Qualification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalStaff"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalStaff"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#workInDepartment"/>
+            <Class IRI="#Department"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicinalTreatment"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumHeadache"/>
+        <Class IRI="#Headache"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meningitis"/>
+        <Class IRI="#InfectiousProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meningitis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#BloodHaemoculture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meningitis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#LumbarPuncture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetabolicDisease"/>
+        <Class IRI="#LocationDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minor"/>
+        <Class IRI="#Gravity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moderate"/>
+        <Class IRI="#Gravity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MorphologicalAnomaly"/>
+        <Class IRI="#PatientMorphologicalState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MyocardialInfarction"/>
+        <Class IRI="#ObstructiveProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MyocardialInfarction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#Angioplasty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MyocardialInfarction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#CardiovascularEchography"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MyocardialInfarction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#CreatinineAnalysis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MyocardialInfarction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#Electrocardiogram"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MyocardialInfarction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#TroponinMonitoring"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negative"/>
+        <Class IRI="#Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neonatology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NephrologicalDisease"/>
+        <Class IRI="#LocationDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nephrology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeurologicalDisease"/>
+        <Class IRI="#LocationDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeurologicalExam"/>
+        <Class IRI="#PhysicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neurology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeuropsychologicalExam"/>
+        <Class IRI="#ClinicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewbornDehydration"/>
+        <Class IRI="#OtherTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonInvasive"/>
+        <Class IRI="#Agressivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonPerishableMaterialRessource"/>
+        <Class IRI="#MaterialResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NuclearMedicine"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nurse"/>
+        <Class IRI="#EmergencyDepartmentRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obesity"/>
+        <Class IRI="#HealthRiskFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obstetric"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObstetricDisease"/>
+        <Class IRI="#StateDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObstructiveProcessTemplate"/>
+        <Class IRI="#PatientTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Odontology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oncology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OpenFracture"/>
+        <Class IRI="http://webprotege.stanford.edu/R7uUuXiBwwisJCbKJGe3wYs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ophtalmology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OphthalmicDisease"/>
+        <Class IRI="#LocationDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orthopedic"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherTemplate"/>
+        <Class IRI="#PatientTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaediatricDisease"/>
+        <Class IRI="#StateDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paediatrics"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PalliativeCareTreatment"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PalliativeMedicine"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PalpationExam"/>
+        <Class IRI="#PhysicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParaclinicalExam"/>
+        <Class IRI="#Exam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParaclinicalSign"/>
+        <Class IRI="#PatientHealthState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paramedic"/>
+        <Class IRI="#ExternalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAsAntecedent"/>
+            <Class IRI="#Disease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasClinicalSign"/>
+            <Class IRI="#ClinicalSign"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisease"/>
+            <Class IRI="#Disease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHealthRiskFactor"/>
+            <Class IRI="#HealthRiskFactor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMorphologicalAnomaly"/>
+            <Class IRI="#MorphologicalAnomaly"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParaclinicalSign"/>
+            <Class IRI="#ParaclinicalSign"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhysiologicalAttribute"/>
+            <Class IRI="#PhysiologicalAttribute"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSymptom"/>
+            <Class IRI="#Symptom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientAttribute"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientHealthState"/>
+        <Class IRI="#PatientMorphologicalState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientInternalState"/>
+        <Class IRI="#PatientState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientMorphologicalState"/>
+        <Class IRI="#PatientState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientState"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientTemplate"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PercussionExam"/>
+        <Class IRI="#PhysicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perfusion"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PerishableMaterialRessource"/>
+        <Class IRI="#MaterialResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peritonitis"/>
+        <Class IRI="#InfectiousProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peritonitis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#AbdominalScan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peritonitis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#ThoracicRadiography"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAsRole"/>
+            <Class IRI="#Role"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasAge"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasBirthDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasFirstName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasLastName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalExam"/>
+        <Class IRI="#ClinicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalMedicine"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysiologicalAttribute"/>
+        <Class IRI="#PatientAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Porter"/>
+        <Class IRI="#EmergencyDepartmentRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive"/>
+        <Class IRI="#Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PotassiumCarence"/>
+        <Class IRI="#OtherTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pregnancy"/>
+        <Class IRI="#HealthRiskFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreventiveMedicine"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Progressive"/>
+        <Class IRI="#Installation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prolapsus"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pseudocyst"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PsychiatricDisease"/>
+        <Class IRI="#LocationDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psychiatry"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PulmonaryEdema"/>
+        <Class IRI="#ObstructiveProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PulmonaryEdema"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#BloodGasAnalysis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PulmonaryEdema"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#BloodIonogram"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PulmonaryEdema"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#CardiovascularDooplerEchography"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PulmonaryEdema"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#Electrocardiogram"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PulmonaryEdema"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#ThoracicRadiography"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PulmonaryEdema"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#UrineIonogram"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PulmonologicalExam"/>
+        <Class IRI="#PhysicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pulmonology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puncture"/>
+        <Class IRI="#ParaclinicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Qualification"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualificationDisease"/>
+        <Class IRI="#StateDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualityOfLifeEvaluation"/>
+        <Class IRI="#NeuropsychologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiography"/>
+        <Class IRI="#ImagingExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiotherapy"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reanimation"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recent"/>
+        <Class IRI="#Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Remission"/>
+        <Class IRI="#DiseaseAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RenalColic"/>
+        <Class IRI="#ObstructiveProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RenalColic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#AbdominalRadiography"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RenalColic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#AbdominalScan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RenalColic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#BloodIonogram"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RenalColic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#CreatinineAnalysis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RenalColic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#RenalEchography"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RenalColic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#UrineBiologicalExam"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RenalEchography"/>
+        <Class IRI="#Echography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RenalEchography"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#RenalColic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resources"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RespiratoryFlowMonitoring"/>
+        <Class IRI="#RespiratoryFunctionalExploration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RespiratoryFlowMonitoring"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#AsthmaCrisis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RespiratoryFunctionalExploration"/>
+        <Class IRI="#FunctionalExploration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Result"/>
+        <Class IRI="#DiseaseAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RheumatologicDisease"/>
+        <Class IRI="#LocationDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rheumatology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RightArmPain"/>
+        <Class IRI="#UpperLimbPain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RightHanded"/>
+        <Class IRI="#Laterality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RightLegPain"/>
+        <Class IRI="#LowerLimbPain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RightSideDysfunction"/>
+        <Class IRI="#FaceDysfunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Role"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Role"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#roleOf"/>
+            <Class IRI="#Person"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SamplingBiologicalExam"/>
+        <Class IRI="#BiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scan"/>
+        <Class IRI="#ImagingExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scar"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scintigraphy"/>
+        <Class IRI="#ImagingExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Septicemia"/>
+        <Class IRI="#InfectiousProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Septicemia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#BloodElectrolyticAnalysis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Septicemia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#BloodHaemoculture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Septicemia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#BloodSerology"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Septicemia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#SepticemiaMRI"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Septicemia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#SepticemiaRadiography"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Septicemia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#SepticemiaScan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SepticemiaMRI"/>
+        <Class IRI="#MRI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SepticemiaMRI"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#Septicemia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SepticemiaRadiography"/>
+        <Class IRI="#Radiography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SepticemiaRadiography"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#Septicemia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SepticemiaScan"/>
+        <Class IRI="#Scan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SepticemiaScan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#Septicemia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serious"/>
+        <Class IRI="#Gravity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Severe"/>
+        <Class IRI="#Gravity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sex"/>
+        <Class IRI="#PhysiologicalAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShoulderLuxation"/>
+        <Class IRI="#TraumaticProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialDifficulties"/>
+        <Class IRI="#HealthRiskFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpineTrauma"/>
+        <Class IRI="#TraumaticProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateDisease"/>
+        <Class IRI="#Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stenosis"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StomachPain"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stroke"/>
+        <Class IRI="#ObstructiveProcessTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stroke"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#AngiographyMRI"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stroke"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#AngiographyScan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stroke"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#BloodHaematology"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stroke"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#CarotidDooplerEchography"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stroke"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#Electrocardiogram"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stroke"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarePlanPart"/>
+            <Class IRI="#TransesophagealEchography"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StructuralResource"/>
+        <Class IRI="#Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surgery"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurgicalRoom"/>
+        <Class IRI="#StructuralResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurgicalTreatment"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Symptom"/>
+        <Class IRI="#PatientAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Syringe"/>
+        <Class IRI="#PerishableMaterialRessource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temporal"/>
+        <Class IRI="#DiseaseAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThoracicDisease"/>
+        <Class IRI="#LocationDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThoracicRadiography"/>
+        <Class IRI="#Radiography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThoracicRadiography"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#AsthmaCrisis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThoracicRadiography"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#Peritonitis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThoracicRadiography"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#PulmonaryEdema"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thrombus"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransesophagealEchography"/>
+        <Class IRI="#Echography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransesophagealEchography"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#Stroke"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TraumaticProcessTemplate"/>
+        <Class IRI="#PatientTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traumatology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TraumatologyDisease"/>
+        <Class IRI="#MechanismDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Treatment"/>
+        <Class IRI="#MedicalAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TroponinMonitoring"/>
+        <Class IRI="#CardiovascularMarker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TroponinMonitoring"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#MyocardialInfarction"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TumoralProcessDisease"/>
+        <Class IRI="#MechanismDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumour"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type"/>
+        <Class IRI="#DiseaseAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Typical"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ulcer"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UpperLimbPain"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UrineBiologicalExam"/>
+        <Class IRI="#BiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UrineBiologicalExam"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#RenalColic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UrineIonogram"/>
+        <Class IRI="#UrineBiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UrineIonogram"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#PulmonaryEdema"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UrineStripsAnalysis"/>
+        <Class IRI="#UrineBiologicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UrineStripsAnalysis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCarePlanPartOf"/>
+            <Class IRI="#GlycemicComa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Urology"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VascularDisease"/>
+        <Class IRI="#LocationDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VitalParametersMonitoring"/>
+        <Class IRI="#PhysicalExam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaitingRoom"/>
+        <Class IRI="#StructuralResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weight"/>
+        <Class IRI="#PhysiologicalAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Attribute"/>
+        <Class IRI="#Department"/>
+        <Class IRI="#MedicalAct"/>
+        <Class IRI="#Person"/>
+        <Class IRI="#Qualification"/>
+        <Class IRI="#Resources"/>
+        <Class IRI="#Role"/>
+        <Class IRI="#State"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#diseaseAttribute"/>
+        <ObjectProperty IRI="#diseaseProperties"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#diseaseProperties"/>
+        <ObjectProperty IRI="#relation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+        <ObjectProperty IRI="#relation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAgressivity"/>
+        <ObjectProperty IRI="#diseaseAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsAntecedent"/>
+        <ObjectProperty IRI="#hasStateProperties"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsRole"/>
+        <ObjectProperty IRI="#relation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAttributeProperties"/>
+        <ObjectProperty IRI="#patientProperties"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCarePlanPart"/>
+        <ObjectProperty IRI="#relation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasClinicalSign"/>
+        <ObjectProperty IRI="#hasStateProperties"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDisease"/>
+        <ObjectProperty IRI="#hasStateProperties"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGravity"/>
+        <ObjectProperty IRI="#diseaseAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasHealthRiskFactor"/>
+        <ObjectProperty IRI="#hasAttributeProperties"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasInstallation"/>
+        <ObjectProperty IRI="#diseaseAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMorphologicalAnomaly"/>
+        <ObjectProperty IRI="#hasStateProperties"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasParaclinicalSign"/>
+        <ObjectProperty IRI="#hasStateProperties"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPhysiologicalAttribute"/>
+        <ObjectProperty IRI="#hasAttributeProperties"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPossibleEvolution"/>
+        <ObjectProperty IRI="#diseaseAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasResult"/>
+        <ObjectProperty IRI="#diseaseAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasStateProperties"/>
+        <ObjectProperty IRI="#patientProperties"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasStatus"/>
+        <ObjectProperty IRI="#diseaseAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSymptom"/>
+        <ObjectProperty IRI="#hasAttributeProperties"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTemporality"/>
+        <ObjectProperty IRI="#diseaseAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasType"/>
+        <ObjectProperty IRI="#diseaseAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCarePlanPartOf"/>
+        <ObjectProperty IRI="#inverseRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCuredBy"/>
+        <ObjectProperty IRI="#relation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+        <ObjectProperty IRI="#relation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isInRemission"/>
+        <ObjectProperty IRI="#diseaseAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPerformedBy"/>
+        <ObjectProperty IRI="#inverseRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isTheResultOf"/>
+        <ObjectProperty IRI="#inverseRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#medicalActRequirements"/>
+        <ObjectProperty IRI="#relation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#medicalActRequires"/>
+        <ObjectProperty IRI="#medicalActRequirements"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#medicalActRequiresStructure"/>
+        <ObjectProperty IRI="#medicalActRequirements"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#patientProperties"/>
+        <ObjectProperty IRI="#relation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#roleOf"/>
+        <ObjectProperty IRI="#inverseRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workInDepartment"/>
+        <ObjectProperty IRI="#relation"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAsRole"/>
+        <ObjectProperty IRI="#roleOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCarePlanPart"/>
+        <ObjectProperty IRI="#isCarePlanPartOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#inverseRelation"/>
+        <ObjectProperty IRI="#relation"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#diseaseAttribute"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAgressivity"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAsAntecedent"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAsRole"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAttributeProperties"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCarePlanPart"/>
+        <Class IRI="#PatientTemplate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasClinicalSign"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDisease"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGravity"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHealthRiskFactor"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInstallation"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMorphologicalAnomaly"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasParaclinicalSign"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPhysiologicalAttribute"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPossibleEvolution"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasResult"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStateProperties"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStatus"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSymptom"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTemporality"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasType"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCuredBy"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+        <Class IRI="#Department"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInRemission"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPerformedBy"/>
+        <Class IRI="#MedicalAct"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTheResultOf"/>
+        <Class IRI="#ExamResult"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#medicalActRequires"/>
+        <Class IRI="#MedicalAct"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#medicalActRequiresStructure"/>
+        <Class IRI="#MedicalAct"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#roleOf"/>
+        <Class IRI="#Role"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#workInDepartment"/>
+        <Class IRI="#MedicalStaff"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#diseaseAttribute"/>
+        <Class IRI="#DiseaseAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#doctorMedicalDisciplineSpeciality"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAgressivity"/>
+        <Class IRI="#Agressivity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAsAntecedent"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAsRole"/>
+        <Class IRI="#Role"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAttributeProperties"/>
+        <Class IRI="#PatientAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCarePlanPart"/>
+        <Class IRI="#MedicalAct"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasClinicalSign"/>
+        <Class IRI="#ClinicalSign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDisease"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGravity"/>
+        <Class IRI="#Gravity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHealthRiskFactor"/>
+        <Class IRI="#HealthRiskFactor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInstallation"/>
+        <Class IRI="#Installation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMorphologicalAnomaly"/>
+        <Class IRI="#MorphologicalAnomaly"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasParaclinicalSign"/>
+        <Class IRI="#ParaclinicalSign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPhysiologicalAttribute"/>
+        <Class IRI="#PhysiologicalAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPossibleEvolution"/>
+        <Class IRI="#Evolution"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasResult"/>
+        <Class IRI="#Result"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStateProperties"/>
+        <Class IRI="#PatientState"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStatus"/>
+        <Class IRI="#DiseaseStatus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSymptom"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTemporality"/>
+        <Class IRI="#Temporal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasType"/>
+        <Class IRI="#Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCuredBy"/>
+        <Class IRI="#Treatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDepartmentOfMedicalDscipline"/>
+        <Class IRI="#MedicalDiscipline"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInRemission"/>
+        <Class IRI="#Remission"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPerformedBy"/>
+        <Class IRI="#MedicalStaff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTheResultOf"/>
+        <Class IRI="#MedicalAct"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#medicalActRequires"/>
+        <Class IRI="#MaterialResource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#medicalActRequiresStructure"/>
+        <Class IRI="#StructuralResource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#roleOf"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workInDepartment"/>
+        <Class IRI="#Department"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasAge"/>
+        <DataProperty IRI="#personDataProperties"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasBirthDate"/>
+        <DataProperty IRI="#personDataProperties"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasFirstName"/>
+        <DataProperty IRI="#personDataProperties"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasLastName"/>
+        <DataProperty IRI="#personDataProperties"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAge"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasBirthDate"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFirstName"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLastName"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isAssociatedToDolorLevel"/>
+        <Class IRI="#Symptom"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isLocated"/>
+        <Class IRI="#Disease"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isLocated"/>
+        <Class IRI="#MedicalAct"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isLocated"/>
+        <Class IRI="#Symptom"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#resultOfMedicalAct"/>
+        <Class IRI="#ExamResult"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAge"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasBirthDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFirstName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasLastName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isAssociatedToDolorLevel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isLocated"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#resultOfMedicalAct"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7Sp45SXhYTuDvRRDenaSd0</IRI>
+        <Literal>ShortnessOfBreath</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7uUuXiBwwisJCbKJGe3wYs</IRI>
+        <Literal>Fracture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8MJoFpbb9I6DL2zOA7rkis</IRI>
+        <Literal>Breathing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8VZmQZ4SMdbrwBhszGvUqZ</IRI>
+        <Literal>BurnProcessTemplate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8cet8q71LccknY5vL32URv</IRI>
+        <Literal>ColdSweat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8eMud87v0m2Hw91NmJBxB1</IRI>
+        <Literal>SweatySkin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8lpOMMmhSsRv6Cou780sB8</IRI>
+        <Literal>Swellings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8zynctKH21C4aSiDR4vESM</IRI>
+        <Literal>Vomiting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R92PBpBkSXJxHgmYMOb4ylC</IRI>
+        <Literal>DisturbancesOfConsciousness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9E1WT8JyRUcs0lETMgvquE</IRI>
+        <Literal>NumbLimb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9EYH7R5Ap4mvvHdQRxuUwf</IRI>
+        <Literal>FirstDegreeBurn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9MrC7oFu4atEIfEwtTofJb</IRI>
+        <Literal>Pallor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9g1FrETtSX7oWRmpbp0qd6</IRI>
+        <Literal>Crushing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBFWeojH7tuXFMCkeLXSdyE</IRI>
+        <Literal>ThroatIrritation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBO3qP0ogQt4NA76R8yPOxX</IRI>
+        <Literal>Paralysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBWv1RS8jhlY0rpK2koUCD3</IRI>
+        <Literal>FractureWithoutDisplacement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBnSqbwCM2xXTSBbmvxdEbk</IRI>
+        <Literal>FractureWithDisplacement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RC44IVyiJLWPedAfxRbztpD</IRI>
+        <Literal>SecondDeepDegreeBurn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCoKn84AovHdqVJRotLSHr1</IRI>
+        <Literal>RapidBreathing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDGMHrqxjkj2Ascd5CaYZIg</IRI>
+        <Literal>Chills</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDHynjXbqCRjZa2cQG72eG6</IRI>
+        <Literal>Dizziness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDwIBmZLAcTSJRiiANFivyC</IRI>
+        <Literal>LightSecondDegreeBurn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RZ9PXzrMhbhRGoBspIjane</IRI>
+        <Literal>Bruises</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RZU1mW3UtsWUN9c5fKbwEc</IRI>
+        <Literal>BloodLoss</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RavMTEiHkhQjdhfYRfORgg</IRI>
+        <Literal>ThirdDegreeBurn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#BiologicalExam</IRI>
+        <Literal>Analysis of biological fluids that aim to provide informations and help the build of a diagnosis about a patient.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#ClinicalExam</IRI>
+        <Literal>Exam concerning medicine activities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#ContextExam</IRI>
+        <Literal>Exam performed in a specific context (for a medical certificate for example)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#DegenerativeProcessTemplate</IRI>
+        <Literal>Process caused by a cells and organes loss of function or loss of quality.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#Department</IRI>
+        <Literal>A medical department is a groupment of several medical units. These groupment are made following a logic like organ oriented logic or patient take in charge oriented logic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#Exam</IRI>
+        <Literal>Meeting beetwin a patient and a doctor. This meeting by an interview and medical examinations with several tecniques sometimes with instruments, aim to help the doctor to provide a diagnosis of patient symptoms and can lead to medical prescription.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#ImagingExam</IRI>
+        <Literal>Set of exams able to provide human body images using several tecniques and aiming to help the building of a diagnosis about a patient.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#InfectiousProcessTemplate</IRI>
+        <Literal>Process caused by pathogenic microorganisms like bacteria, virus, fungus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#MedicalAct</IRI>
+        <Literal>Set of human, tecnical or scientifical actions performed by a person able to exerc medicine that aiming the healing, the prevention and the conform of injuries, disabilities and diseases of a human being.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#ObstructiveProcessTemplate</IRI>
+        <Literal>Process caused by the obstruction of an hollow organ or a canal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#ParaclinicalExam</IRI>
+        <Literal>Exam concerning annex medicine activities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#PatientTemplate</IRI>
+        <Literal>Patient template based on the most frequent pathologies in emergency department.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#TraumaticProcessTemplate</IRI>
+        <Literal>Process caused by a trauma.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
