@@ -1,16 +1,133 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+
+<head>
+    <title>Identified Symptoms</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstraptheme.min.css">
+</head>
+
+<body>
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        body {
+            background-image: url("icones/fond_ecran.PNG");
+            color: #2D9CDB;
+            background-repeat: no-repeat;
+            background-position: right top;
+        }
+
+        li {
+            color: white;
+        }
+
+        .list-group-item {
+            background-color: #2D9CDB;
+        }
+
+        .glyphicon glyphicon-trash {
+            color: white;
+        }
+
+        .inline-form input {
+            display: inline-block;
+            width: 100px;
+        }
+
+        .img1 {
+            position: absolute;
+            width: 140px;
+            height: 156px;
+            left: 1050px;
+            top: 425px;
+        }
+
+        .button {
+            width: 200px;
+            height: 50px;
+            margin-left: 1025px;
+            margin-top: 300px;
+            color: white;
+            size: 50px;
+            font-size: x-large;
+            border: 4px solid #FFFFFF;
+            background-color: #2D9CDB;
+            
+            border-radius: 20px;
+            
+        }
+
+        .col-md-2 {
+            margin-top: 50px;
+            background: #F2F2F2;
+            border: solid;
+        }
+
+        .col-md-4{
+            margin-top: 50px;
+            background: #F2F2F2;
+            border: solid;
+        }
+    </style>
+    <div class="row">
+        <div class="col-md-3">
+            <img  src="icones/main_icon.jpg" class="img-fluid" width="100" height="100" alt="">
+         </div>
+         <div class="col-md-6">
+            <h2>Identified Symptoms</h2>
+         </div>
+         <div  class="col-md-3">
+            <img style="float: right; margin-top: 10px;" src="icones/isis_logo.png" class="img-fluid" width="100" height="100" alt="">
+         </div>
+    </div>
+    
+    <div class="col-md-1">
+
+    </div>
+    <div class="col-md-4">
+        
+            <h3 style="text-align: center;">Symptoms List</h3>
+            <div class="inline-form input">
+                <ul class="list-group">
+                    <li class="list-group-item">Symptom 1
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </li>
+                    <li class="list-group-item">Symptom 2
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </li>
+                    <li class="list-group-item">Symptom 3
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </li>
+                </ul>
+            
+        </div>
+    </div>
+    <div class="col-md-3">
+
+    </div>
+    <div id="container2" class="col-md-2">
+        <div class="container">
+            <h3>Symptoms</h3>
+            <h4>Search symptoms</h4>
+            <form class="inline-form">
+                <div class="form-group">
+                    <input type="search" class="input-sm form-control" placeholder="Search ...">
+                    <button type="submit" class="btn btn-primary btn-sm"><span
+                            class="glyphicon glyphicon-search"></span> Search</button>
+                </div>
+            </form>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-sm"> Add Symptom</button>
+            </div>
+        </div>
+    </div>
+    <img class="img1" src="img.png" alt="">
+    <button id="redirect" class="button">Next</button>
+</body>
+
 </html>
