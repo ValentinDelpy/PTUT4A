@@ -1,4 +1,14 @@
-/Users/flaviebilhac/NetBeansProjects/PTUT4A/src/main/java/Ontology.java
+/Users/flaviebilhac/NetBeansProjects/PTUT4A/src/main/java/model/Ontology.java
+/Users/flaviebilhac/NetBeansProjects/PTUT4A/src/main/java/model/Patient.java
+/Users/flaviebilhac/NetBeansProjects/PTUT4A/src/main/java/model/Gender.java
 /Users/flaviebilhac/NetBeansProjects/PTUT4A/src/main/java/App.java
 /Users/flaviebilhac/NetBeansProjects/PTUT4A/src/main/java/com/mycompany/emcrisis/resources/JavaEE8Resource.java
+/Users/flaviebilhac/NetBeansProjects/PTUT4A/src/main/java/model/Intervention.java
+/Users/flaviebilhac/NetBeansProjects/PTUT4A/src/main/java/model/Drug.java
+/Users/flaviebilhac/NetBeansProjects/PTUT4A/src/main/java/model/Disease.java
+/Users/flaviebilhac/NetBeansProjects/PTUT4A/src/main/java/model/WeaknessClassification.java
+/Users/flaviebilhac/NetBeansProjects/PTUT4A/src/main/java/model/Symptom.java
+/Users/flaviebilhac/NetBeansProjects/PTUT4A/src/main/java/model/AgeClassification.java
+/Users/flaviebilhac/NetBeansProjects/PTUT4A/src/main/java/model/Treatment.java
+/Users/flaviebilhac/NetBeansProjects/PTUT4A/src/main/java/model/HealthRiskFactor.java
 /Users/flaviebilhac/NetBeansProjects/PTUT4A/src/main/java/com/mycompany/emcrisis/JAXRSConfiguration.java

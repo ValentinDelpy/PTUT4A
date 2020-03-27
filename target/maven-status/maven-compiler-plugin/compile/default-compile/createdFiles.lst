@@ -1,0 +1,14 @@
+model/Treatment.class
+model/Ontology.class
+model/Intervention.class
+App.class
+model/Gender.class
+model/Disease.class
+model/Symptom.class
+com/mycompany/emcrisis/JAXRSConfiguration.class
+com/mycompany/emcrisis/resources/JavaEE8Resource.class
+model/WeaknessClassification.class
+model/HealthRiskFactor.class
+model/AgeClassification.class
+model/Drug.class
+model/Patient.class
