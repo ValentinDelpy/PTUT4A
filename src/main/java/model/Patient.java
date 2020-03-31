@@ -36,6 +36,13 @@ public class Patient {
         this.treatments = new ArrayList();
         this.HRFs = new ArrayList();
     }
+    
+    public Patient(String n){
+        this.name = n;
+        this.symptoms = new ArrayList();
+        this.treatments = new ArrayList();
+        this.HRFs = new ArrayList();
+    }
     public void setAgeClassification(AgeClassification ac){
         this.ac = ac;
     }
@@ -103,7 +110,7 @@ public class Patient {
     public List<Symptom> getSymptoms(){
         return this.symptoms;
     }
-    public Symptom getSymptom(Symptom s){
+    public Symptom findSymptom(Symptom s){
         Symptom r = null;
         for(Symptom sy : this.getSymptoms()){
             if(sy.getName().equals(s.getName())){
@@ -116,7 +123,7 @@ public class Patient {
     public List<Treatment> getTreatments(){
         return this.treatments;
     }
-    public Treatment getTreatment(Treatment t){
+    public Treatment findTreatment(Treatment t){
         Treatment r = null;
         for(Treatment tr : this.getTreatments()){
             if(tr.getName().equals(t.getName())){
@@ -129,7 +136,7 @@ public class Patient {
     public List<HealthRiskFactor> getHRFs(){
         return this.HRFs;
     }
-    public HealthRiskFactor getHRF(HealthRiskFactor h){
+    public HealthRiskFactor findHRF(HealthRiskFactor h){
         HealthRiskFactor r = null;
         for(HealthRiskFactor he : this.getHRFs()){
             if(he == h){

@@ -1,3 +1,10 @@
+<%-- 
+    Document   : index
+    Created on : 26 mars 2020, 13:46:22
+    Author     : Soul
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -51,14 +58,25 @@
             <br/>
             <br/>
             <br/>
-            <button id="redirect" class="button" >Earthquake</button><br/>
-            <button class="button">Ebola Epidemic</button><br/>
-            <button class="button">Terrorist Attack</button><br/>
+            <button id="redirect" class="button">Earthquake</button><br/>
+            <button id="redirect" class="button">Ebola Epidemic</button><br/>
+            <button id="redirect" class="button">Terrorist Attack</button><br/>
         </div>
     </body>
 <script type="text/javascript">
     document.getElementById("redirect").onclick = function () {
         location.href = "personal_infos.html";
+        session
     };
+    
+    $.ajax({
+          url: 'AddDisease',
+          method: 'POST',
+          data : { "interventions" : json,
+                    "name" : $("#nameDisease").val()},
+          dataType : "text/html"      
+        });
+      }   
+    })
 </script>
 </html>
