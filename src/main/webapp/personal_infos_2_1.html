@@ -1,174 +1,185 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title>Personal Informations</title>
-    <meta charset="UTF-8">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Telex&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Personal Informations</title>
+        <meta charset="UTF-8">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Telex&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<body>
-    <style>
-        .card{
-            box-shadow: 1px 1px 12px #555;
-            width:50%;
-            margin:20px;
-            padding:20px;
-        }
-        [class*="col-"]{
-            text-align:center;
-        }
+    <body>
+        <style>
 
-        body {
-            background-image: url("icones/fond_ecran.PNG");
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            color: #2D9CDB;
-            z-index: 1;
-            font-family: Telex;
-        }
+            .card{
+                box-shadow: 1px 1px 12px #555;
+                width:80%;
+                margin:20px;
+                padding:20px;
+                background: #F2F2F2;
+            }
+            [class*="col-"]{
+                text-align:center;
+            }
 
-        h2 {
-            font-size: 48px;
-            line-height: 58px;
-            text-align: center;
-            color: #56CCF2;
-            margin-top: 12px;
-            font-family: Telex;
-        }
+            body {
+                margin:0;
+                padding:0;
+                background: url("icones/fond_ecran.PNG") no-repeat center fixed; 
+                -webkit-background-size: cover; 
+                background-size: cover;
+                color: #2D9CDB;
+                z-index: -1;
+                font-family: Telex;
+            }
 
-        h3 {
-            font-size: 33px;
-            line-height: 40px;
-            text-align:center;
-            color: #2D9CDB;
-            font-family: Telex;
-        }
+            h2 {
+                font-size: 48px;
+                line-height: 58px;
+                text-align: center;
+                color: #56CCF2;
+                margin-top: 12px;
+                font-family: Telex;
+            }
 
-        h4 {
-            font-size: 33px;
-            line-height: 40px;
-            color: #56CCF2;
-            font-family: Telex;
-        }
+            h3 {
+                font-size: 33px;
+                line-height: 40px;
+                text-align:center;
+                color: #2D9CDB;
+                font-family: Telex;
+            }
 
-        input[type=radio] {
-            background: rgba(86, 204, 242, 0.56);
-            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-            padding: 1.2em;
-            -webkit-appearance: none;
-        }
+            h4 {
+                font-size: 33px;
+                line-height: 40px;
+                color: #56CCF2;
+                font-family: Telex;
+            }
+            .form-check-lavel{
+                font-size: 30px;
+            }
 
-        input[type=radio]:checked {
-            background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7) no-repeat center center;
-            background-size: 2px 2px;
-        }
+            input[type=radio] {
+                background: rgba(86, 204, 242, 0.56);
+                box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+                padding: 1.2em;
+                margin-right: 30px;
+                -webkit-appearance: none;
+            }
 
-        input[type=radio]:focus {
-            outline-color: transparent;
-        }
+            input[type=radio]:checked {
+                background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7) no-repeat center center;
+                background-size: 2px 2px;
+            }
 
-        .button {
-            font-size: 35px;
-            border-radius: 20px;
-            border: 5px solid white;
-            background-color: #2D9CDB;
-            box-shadow:
-                0 1.9px 2.2px rgba(0, 0, 0, 0.02),
-                0 4.7px 5.3px rgba(0, 0, 0, 0.028),
-                0 8.8px 10px rgba(0, 0, 0, 0.035),
-                0 15.6px 17.9px rgba(0, 0, 0, 0.042),
-                0 29.2px 33.4px rgba(0, 0, 0, 0.05),
-                0 70px 80px rgba(0, 0, 0, 0.07);
-            text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
-            color: white;
-            width: 230px;
-            height: 80px;
-            margin: 10px;
-        }
-    </style>
-    <div class="row">
-        <div class="col-md-1">
-            <img src="icones/main_icon.jpg" class="img-fluid" width="100" height="100" alt="">
+            input[type=radio]:focus {
+                outline-color: transparent;
+            }
+
+            .button {
+                font-size: 35px;
+                border-radius: 20px;
+                border: 5px solid white;
+                background-color: #2D9CDB;
+                box-shadow:
+                    0 1.9px 2.2px rgba(0, 0, 0, 0.02),
+                    0 4.7px 5.3px rgba(0, 0, 0, 0.028),
+                    0 8.8px 10px rgba(0, 0, 0, 0.035),
+                    0 15.6px 17.9px rgba(0, 0, 0, 0.042),
+                    0 29.2px 33.4px rgba(0, 0, 0, 0.05),
+                    0 70px 80px rgba(0, 0, 0, 0.07);
+                text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+                color: white;
+                width: 230px;
+                height: 80px;
+                margin: 10px;
+            }
+        </style>
+        <div class="row">
+            <div class="col-md-2">
+                <img src="icones/main_icon.jpg" class="img-fluid" width="100" height="100" alt="">
+            </div>
+            <div class="col-md-8">
+                <h2>Enter Personal Information</h2>
+            </div>
+            <div class="col-md-2">
+                <img style="margin-top: 10px;" src="icones/isis_logo.png" class="img-fluid" width="100"
+                     height="100" alt="">
+            </div>
         </div>
-        <div class="col-md-9">
-            <h2>Enter Personal Information</h2>
-        </div>
-        <div class="col-md-1">
-            <img style="margin-top: 10px;" src="icones/isis_logo.png" class="img-fluid" width="100"
-                height="100" alt="">
-        </div>
-    </div>
-    <div class="row">
-    <div class="col-md-5 col-md-offset-1 col-sm-offset-4">
-        <div class="card">
-            <div class="card-body">
-                <h3 class="card-title"> Health Risk Factor</h3>
-                <hr style="border: 1px solid #E7E7E7; width: 100%;">
-                <h4>Diabetes</h4>
-                <div class="form-check">
-                    <input type="radio" class="form-check-input" id="diab_yes" name="diabete">
-                    <label class="form-check-lavel" for="diab_yes">Yes</label>
-                    <input type="radio" class="form-check-input" id="diab_no" name="diabete">
-                    <label class="form-check-lavel" for="diab_no">No</label>       
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1 col-sm-offset-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title"> Health Risk Factor</h3>
+                        <hr style="border: 1px solid #E7E7E7; width: 100%;">
+                        <h4>Diabetes</h4>
+                        <div class="form-check">
+                            <label class="form-check-lavel" for="diab_yes">Yes</label>
+                            <input type="radio" class="form-check-input" id="diab_yes" name="diabete">
+
+                            <label class="form-check-lavel" for="diab_no">No</label> 
+                            <input type="radio" class="form-check-input" id="diab_no" name="diabete">
+
+                        </div>
+                        <h4>Pregnancy (months)</h4>
+                        <div class="form-check">
+
+                            <label class="form-check-lavel" for="preg_3">3</label> 
+                            <input type="radio" class="form-check-input" id="preg_3" name="pregnancy">
+                            <label class="form-check-lavel" for="preg_6">6</label>       
+                            <input type="radio" class="form-check-input" id="preg_6" name="pregnancy">
+                            <label class="form-check-lavel" for="preg_9">9</label>
+                            <input type="radio" class="form-check-input" id="preg_9" name="pregnancy">
+
+                        </div>
+                        <h4>Hypertension</h4>
+                        <div class="form-check">
+                            <label class="form-check-lavel" for="ht_yes">Yes</label>
+                            <input type="radio" class="form-check-input" id="ht_yes" name="hypertension">
+                            <label class="form-check-lavel" for="ht_no">No</label> 
+                            <input type="radio" class="form-check-input" id="ht_no" name="hypertension">
+
+                        </div>
+                        <h4>Smoking</h4>
+                        <div class="form-check">
+                            <label class="form-check-lavel" for="smoke_yes">Yes</label>
+                            <input type="radio" class="form-check-input" id="smoke_yes" name="smoking">
+                            <label class="form-check-lavel" for="smoke_no">No</label> 
+                            <input type="radio" class="form-check-input" id="smoke_no" name="smoking">
+
+                        </div>
+                    </div>
                 </div>
-                <h4>Pregnancy (months)</h4>
-                <div class="form-check">
-                    <input type="radio" class="form-check-input" id="preg_no" name="pregnancy">
-                    <label class="form-check-lavel" for="preg_no">Yes</label>
-                    <input type="radio" class="form-check-input" id="preg_3" name="pregnancy">
-                    <label class="form-check-lavel" for="preg_3">3</label>       
-                    <input type="radio" class="form-check-input" id="preg_6" name="pregnancy">
-                    <label class="form-check-lavel" for="preg_6">6</label>  
-                    <input type="radio" class="form-check-input" id="preg_9" name="pregnancy">
-                    <label class="form-check-lavel" for="preg_9">9</label>  
-                </div>
-                <h4>Hypertension</h4>
-                <div class="form-check">
-                    <input type="radio" class="form-check-input" id="ht_yes" name="hypertension">
-                    <label class="form-check-lavel" for="ht_yes">Yes</label>
-                    <input type="radio" class="form-check-input" id="ht_no" name="hypertension">
-                    <label class="form-check-lavel" for="ht_no">No</label>       
-                </div>
-                <h4>Smoking</h4>
-                <div class="form-check">
-                    <input type="radio" class="form-check-input" id="smoke_yes" name="smoking">
-                    <label class="form-check-lavel" for="smoke_yes">Yes</label>
-                    <input type="radio" class="form-check-input" id="smoke_no" name="smoking">
-                    <label class="form-check-lavel" for="smoke_no">No</label>       
+            </div>
+
+            <div class="col-md-5 col-md-offset-1 col-sm-offset-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Allergies</h3>
+                        <hr style="border: 1px solid #E7E7E7; width: 100%;"/>
+                        <div class="card-text">
+                            <input type="search" placeholder="Search allergies">
+                            <button type="submit" ><span class="glyphicon glyphicon-search"></span>
+                                Search</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="col-md-5 col-md-offset-1 col-sm-offset-4">
-        <div class="card">
-            <div class="card-body">
-              <h3 class="card-title">Allergies</h3>
-              <hr style="border: 1px solid #E7E7E7; width: 100%;"/>
-              <div class="card-text">
-                        <input type="search" placeholder="Search allergies">
-                        <button type="submit" ><span class="glyphicon glyphicon-search"></span>
-                            Search</button>
-              </div>
+        <div class="row">
+            <div class="col-md-10 col-sm-offset-3">               
+                <button id="redirect" class="button">Next</button>
+                <img  src="icones/image1_1.png" class="img-fluid" width="500">
             </div>
-          </div>
-    </div>
-</div>
-    <div class="row">
-        <div class="col-sm-12 col-sm-offset-3">
-            <img src="icones/image1_1.svg">
-            <button id="redirect" class="button">Next</button><br />
         </div>
-    </div>
 
-</body>
-<script type="text/javascript">
-    document.getElementById("redirect").onclick = function () {
-        location.href = "identified_symptoms.html";
-    };
-</script>
+    </body>
+    <script type="text/javascript">
+        document.getElementById("redirect").onclick = function () {
+            location.href = "identified_symptoms.html";
+        };
+    </script>
 
 </html>
