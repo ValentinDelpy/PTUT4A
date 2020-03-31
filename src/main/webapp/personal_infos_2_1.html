@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Informations</title>
+        <meta charset="UTF-8">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Telex&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <body>
+        <style>
+            .row{
+                margin-right: -15px;
+                margin-left: -15px;
+            }
+
+            [class*="col-"]{
+                text-align: center;
+            }
+            body {
+                background-image: url("icones/fond_ecran.PNG");
+                color: #2D9CDB;
+                background-repeat: no-repeat;
+                background-position: right top;
+                z-index: 1;
+                font-family: Telex;
+            }
+            h2{
+                font-size: 48px;
+                line-height: 58px;
+                text-align: center;
+                color: #56CCF2;
+                margin-top: 12px;
+                font-family: Telex;
+            }
+            h3{
+                font-size: 33px;
+                line-height: 40px;
+                position: absolute; 
+                color: #2D9CDB;
+                font-family: Telex;
+            }
+            h4{
+                position: absolute; 
+                font-size: 33px; 
+                line-height: 40px; 
+                color: #56CCF2;
+                font-family: Telex;
+            }
+
+            .subtitle{
+                font-size: 33px;
+                line-height: 40px;
+
+                color: #56CCF2;
+                margin-top: 28px;
+            }
+            .form-check-label{
+                font-family: Telex;
+            }
+            .rectangle1{
+                margin-top: 15px;
+                width: 456px;
+                height: 560px;
+                background: #F2F2F2;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+
+            .card{
+                margin-top: 15px;
+                width: 343px;
+                height: 307px;
+                background: #F2F2F2;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+
+            .line1{
+                position: absolute;
+                width: 456px;
+                height: 0px;
+                left: 30px;
+                top: 100px;
+                border: 1px solid #E7E7E7;
+            }
+
+            .line2{
+                position: absolute;
+                width: 343px;
+                height: 0px;
+                left: 15px;
+                top: 100px;
+                border: 1px solid #E7E7E7;
+                transform: rotate(-0.17deg);
+            }
+
+            .checkboxes{
+                font-size: 33px;
+                line-height: 40px;
+                position: absolute; 
+                color: #2D9CDB;
+
+            }
+            .diabYes{
+                position: absolute;
+                top: 160px;
+                left: 150px;
+                margin-right: 100px;
+            }
+            .diabNo{
+                position: absolute;
+                top: 160px;
+                left: 370px;
+                margin-right: 100px;
+            }
+
+            .pregNo{
+                position: absolute;
+                top: 285px;
+                left: 90px;
+                margin-right: 100px;  
+            }
+            .preg3{
+                position: absolute;
+                top: 285px;
+                left: 205px;
+                margin-right: 100px;
+            }
+            .preg6{
+                position: absolute;
+                top: 285px;
+                left: 320px;
+                margin-right: 100px;
+            }
+            .preg9{
+                position: absolute;
+                top: 285px;
+                left: 430px;
+                margin-right: 100px;
+            }
+            .hyperYes{
+                position: absolute;
+                top: 400px;
+                left: 150px;
+                margin-right: 100px;
+            }
+            .hyperNo{
+                position: absolute;
+                top: 400px;
+                left: 370px;
+                margin-right: 100px;
+            }
+            .smokYes{
+                position: absolute;
+                top: 510px;
+                left: 150px;
+                margin-right: 100px;
+            }
+            .smokNo{
+                position: absolute;
+                top: 510px;
+                left: 370px;
+                margin-right: 100px;
+            }
+
+            input[type=radio] {
+                background: rgba(86, 204, 242, 0.56);
+                box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+                padding: 1.2em;
+                -webkit-appearance: none;
+            }
+
+            input[type=radio]:checked {
+                background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7) no-repeat center center;
+                background-size: 2px 2px;
+            }
+
+            input[type=radio]:focus {
+                outline-color: transparent;
+            }
+
+            .inline-form input {
+                display: inline-block;
+                width: 200px;
+            }
+            .form-group{
+                top:100px;
+            }
+
+            .button{
+                font-size:35px;
+                border-radius:20px;
+                border: 5px solid white;
+                background-color:#2D9CDB;
+                box-shadow:
+                    0 1.9px 2.2px rgba(0, 0, 0, 0.02),
+                    0 4.7px 5.3px rgba(0, 0, 0, 0.028),
+                    0 8.8px 10px rgba(0, 0, 0, 0.035),
+                    0 15.6px 17.9px rgba(0, 0, 0, 0.042),
+                    0 29.2px 33.4px rgba(0, 0, 0, 0.05),
+                    0 70px 80px rgba(0, 0, 0, 0.07)
+                    ;
+                text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+                color:white;
+                width:230px;
+                height:80px;
+                margin:10px;
+            }
+        </style>
+        <div class="row">
+            <div class="col-md-1">
+                <img  src="icones/main_icon.jpg" class="img-fluid" width="100" height="100" alt="">
+            </div>
+            <div class="col-md-1">
+                <div class="subtitle">EmCrisis</div>
+            </div>
+            <div class="col-md-9">
+                <h2>Enter Personal Information</h2>
+            </div>
+            <div class="col-md-1">
+                <img style="float: right; margin-top: 10px;" src="icones/isis_logo.png" class="img-fluid" width="100" height="100" alt="">
+            </div>
+        </div>
+        <div class="col-md-5 col-md-offset-1">
+            <div class="container-fluid">
+                <div class="rectangle1">
+                    <h3 style="top: 20px; left: 110px;">Health Risk Factor</h3>
+                    <div class="line1"></div>
+                    <h4 style=" top: 100px; left: 185px; ">Diabetes</h4>
+                    <div>
+                        <p style="position: absolute; top: 160px; left: 100px; font-size: 28px; line-height: 40px; color: rgba(45, 156, 219, 0.75);">Yes</p>
+                        <input class="diabYes" type="radio" id="diabYes" name="diabetes"> 
+                        <p style="position: absolute; top: 160px; left: 330px; font-size: 28px; line-height: 40px; color: rgba(45, 156, 219, 0.75);">No</p>
+                        <input class="diabNo" type="radio" id="diabNo" name="diabetes">
+                    </div>
+                </div>
+                <div class="form-check form-check-inline">
+                    <h4 style=" top: 215px; left: 100px;">Pregnancy (in months)</h4>
+                    <div>
+                        <p style="position: absolute; top: 285px; left: 50px; font-size: 28px; line-height: 40px; color: rgba(45, 156, 219, 0.75);">No</p>
+                        <input class="pregNo" type="radio" id="pregNo" name="pregnancy">
+                        <p style="position: absolute; top: 285px; left: 150px; font-size: 28px; line-height: 40px; color: rgba(45, 156, 219, 0.75);">3 M</p>
+                        <input class="preg3" type="radio" id="preg3" name="pregnancy">
+                        <p style="position: absolute; top: 285px; left: 260px; font-size: 28px; line-height: 40px; color: rgba(45, 156, 219, 0.75);">6 M</p>
+                        <input class="preg6" type="radio" id="preg6" name="pregnancy">
+                        <p style="position: absolute; top: 285px; left: 370px; font-size: 28px; line-height: 40px; color: rgba(45, 156, 219, 0.75);">9 M</p>
+                        <input class="preg9" type="radio" id="preg9" name="pregnancy">
+                    </div>
+                </div>
+                <div class="form-check form-check-inline">
+                    <h4 style="top: 340px; left: 160px;">Hypertension</h4>
+                    <div>
+                        <p style="position: absolute; top: 400px; left: 100px; font-size: 28px; line-height: 40px; color: rgba(45, 156, 219, 0.75);">Yes</p>
+                        <input class="hyperYes" type="radio" id="hyperYes" name="hypertension"> 
+                        <p style="position: absolute; top: 400px; left: 330px; font-size: 28px; line-height: 40px; color: rgba(45, 156, 219, 0.75);">No</p>
+                        <input class="hyperNo" type="radio" id="hyperNo" name="hypertension">
+                    </div>
+                </div>
+                <div class="form-check form-check-inline">
+                    <h4 style="top: 450px;left: 190px;">Smoking</h4>
+                    <div>
+                        <p style="position: absolute; top: 510px; left: 100px; font-size: 28px; line-height: 40px; color: rgba(45, 156, 219, 0.75);">Yes</p>
+                        <input class="smokYes" type="radio" id="smokYes" name="smoking"> 
+                        <p style="position: absolute; top: 510px; left: 330px; font-size: 28px; line-height: 40px; color: rgba(45, 156, 219, 0.75);">No</p>
+                        <input class="smokNo" type="radio" id="smokNo" name="smoking">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-5 col-md-offset-1">
+            <div class="card">
+                <h3 class="card-title" style=" top: 20px; left: 130px;">Allergies</h3>
+                <div class="line2"></div>
+                <form class="inline-form">
+                    <div class="form-group">
+                        <input type="search" class="search-bar" placeholder="Search allergies">
+                        <button type="submit" class="submitbtn"><span class="glyphicon glyphicon-search"></span> Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <img src="icones/image1_1.svg" style="position: absolute; bottom: 0px; right: 1px; height: 280px;">
+        <button id="redirect" class="button" style="position: absolute; bottom: 10px; right: 2px;" >Next</button><br/>
+    </body>
+    <script type="text/javascript">
+        document.getElementById("redirect").onclick = function () {
+            location.href = "identified_symptoms.html";
+        };
+    </script>
+</html>
