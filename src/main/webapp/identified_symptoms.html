@@ -17,12 +17,26 @@
             font-size: 48px;
         }
 
+        .card {
+            box-shadow: 1px 1px 12px #555;
+            width: 50%;
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+        }
+
+        [class*="col-"] {
+            text-align: center;
+        }
+
         body {
             background-image: url("icones/fond_ecran.PNG");
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
             color: #2D9CDB;
+            z-index: -1;
             font-family: Telex;
-            background-repeat: no-repeat;
-            background-position: right top;
         }
 
         li {
@@ -42,96 +56,73 @@
             width: 100px;
         }
 
-        .img1 {
-            position: absolute;
-            width: 140px;
-            height: 156px;
-            left: 1050px;
-            top: 425px;
-        }
-
         .button {
             width: 200px;
             height: 50px;
-            margin-left: 1025px;
-            margin-top: 300px;
             color: white;
             size: 50px;
             font-size: x-large;
             border: 4px solid #FFFFFF;
             background-color: #2D9CDB;
-            
             border-radius: 20px;
-            
         }
 
-        .col-md-2 {
-            margin-top: 50px;
-            background: #F2F2F2;
-        }
-
-        .col-md-4{
-            margin-top: 50px;
-            background: #F2F2F2;
-           
-        }
     </style>
     <div class="row">
-        <div class="col-md-3">
-            <img  src="icones/main_icon.jpg" class="img-fluid" width="100" height="100" alt="">
-         </div>
-         <div class="col-md-6">
-            <h2>Identified Symptoms</h2>
-         </div>
-         <div  class="col-md-3">
-            <img style="float: right; margin-top: 10px;" src="icones/isis_logo.png" class="img-fluid" width="100" height="100" alt="">
-         </div>
-    </div>
-    
-    <div class="col-md-1">
-
-    </div>
-    <div class="shadow p-3 mb-5 bg-white rounded">
-    <div class="col-md-4 ">
-        
-            <h3 style="text-align: center;">Symptoms List</h3>
-            <div class="inline-form input">
-                <ul class="list-group">
-                    <li class="list-group-item">Symptom 1
-                        <span class="glyphicon glyphicon-trash"></span>
-                    </li>
-                    <li class="list-group-item">Symptom 2
-                        <span class="glyphicon glyphicon-trash"></span>
-                    </li>
-                    <li class="list-group-item">Symptom 3
-                        <span class="glyphicon glyphicon-trash"></span>
-                    </li>
-                </ul>
-            
+        <div class="col-md-1">
+            <img src="icones/main_icon.jpg" class="img-fluid" width="100" height="100" alt="">
+        </div>
+        <div class="col-md-9">
+            <h2>Enter Personal Information</h2>
+        </div>
+        <div class="col-md-1">
+            <img style="margin-top: 10px;" src="icones/isis_logo.png" class="img-fluid" width="100" height="100" alt="">
         </div>
     </div>
-    </div>
-    <div class="col-md-3">
-
-    </div>
-    <div id="container2" class="col-md-2">
-        <div class="container">
-            <h3>Symptoms</h3>
-            <h4>Search symptoms</h4>
-            <form class="inline-form">
-                <div class="form-group">
-                    <input type="search" class="input-sm form-control" placeholder="Search ...">
-                    <button type="submit" class="btn btn-primary btn-sm"><span
-                            class="glyphicon glyphicon-search"></span> Search</button>
+    <div class="row" style="height:50vh;">
+        <div class="col-md-5 col-md-offset-1 col-sm-offset-4">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title"> Symptoms List</h3>
+                    <hr style="border: 1px solid #E7E7E7; width: 100%;" />
+                    <ul class="list-group">
+                            <li class="list-group-item">Symptom 1
+                                <span class="glyphicon glyphicon-trash"></span>
+                            </li>
+                            <li class="list-group-item">Symptom 2
+                                <span class="glyphicon glyphicon-trash"></span>
+                            </li>
+                            <li class="list-group-item">Symptom 3
+                                <span class="glyphicon glyphicon-trash"></span>
+                            </li>
+                        </ul>
                 </div>
-            </form>
-            <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-sm"> Add Symptom</button>
+            </div>
+        </div>
+        <div class="col-md-5 col-md-offset-1 col-sm-offset-4">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Symptoms</h3>
+                    <hr style="border: 1px solid #E7E7E7; width: 100%;" />
+                    <div class="card-text">
+                        <input type="search" placeholder="Search allergies">
+                        <button type="submit"><span class="glyphicon glyphicon-search"></span>
+                            Search Symptom</button>
+                        <div class="form-group">
+                            <br /><br />
+                            <button type="submit" class="btn btn-primary btn-sm"> Add Symptom</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <img class="img1" src="icones/img.png" alt="">
-    <button id="redirect" class="button">Next</button>
+    <div class="row">
+            <div class="col-sm-12 col-sm-offset-3">
+                <img src="icones/img.png">
+                <button id="redirect" class="button">Next</button><br />
+            </div>
+        </div>
 </body>
 
 </html>
