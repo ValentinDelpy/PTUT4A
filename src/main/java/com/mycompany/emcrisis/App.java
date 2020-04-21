@@ -15,11 +15,16 @@ import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLClass;
 import org.semanticweb.owlapi.model.OWLDataFactory;
 import org.semanticweb.owlapi.model.OWLNamedIndividual;
+import org.semanticweb.owlapi.model.OWLOntology;
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;
 import org.semanticweb.owlapi.model.OWLOntologyManager;
 import org.semanticweb.owlapi.model.OWLSubClassOfAxiom;
+import org.semanticweb.owlapi.reasoner.ConsoleProgressMonitor;
+import org.semanticweb.owlapi.reasoner.NodeSet;
 import org.semanticweb.owlapi.reasoner.OWLReasoner;
+import org.semanticweb.owlapi.reasoner.OWLReasonerConfiguration;
 import org.semanticweb.owlapi.reasoner.OWLReasonerFactory;
+import org.semanticweb.owlapi.reasoner.SimpleConfiguration;
 import org.semanticweb.owlapi.reasoner.structural.StructuralReasonerFactory;
 
 /*
@@ -36,11 +41,22 @@ public class App {
 
     
     public static void main(String args[]) throws OWLOntologyCreationException{
-        //Ontology ont = new Ontology(new File("EMCrisis.owx"));
-	//	ArrayList<OWLClass> list = new ArrayList<>();
-	//	for (OWLClass cls : ont.getOntology().getClassesInSignature()) {
-	//		list.add(cls);
-	//	}
+        Ontology ont = new Ontology(new File("EMCrisis.owx"));
+        OWLOntology o = ont.getOntology();
+        OWLReasonerFactory reasonerFactory = new StructuralReasonerFactory();
+        ConsoleProgressMonitor progressMonitor = new ConsoleProgressMonitor();
+        OWLReasonerConfiguration config = new SimpleConfiguration(progressMonitor);
+        OWLReasoner reasoner = reasonerFactory.createReasoner(o, config);
+        reasoner.precomputeInferences(); 
+        for(OWLClass allclasses : o.getClassesInSignature()){
+            if(allclasses.toStringID().indexOf("#Symptom")>0){
+                NodeSet<OWLClass> cls;
+                cls = reasoner.getSubClasses(allclasses,false);
+                for(OWLClass c : cls.getFlattened()){
+                    System.out.println(c.getIRI().getShortForm().toString());
+                }
+            }
+        }
         List<Disease> diseases = new ArrayList<>();
         Patient p = new Patient("oui");
         Symptom toux = new Symptom("Toux");
